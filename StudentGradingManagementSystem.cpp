@@ -8,10 +8,10 @@ class Student {
 private:
     char names[50][50];
     int roll[50];
-    float grade[50][5];
+    float grade[50][5]; // Store grades for 5 subjects
     float avg[50];
-    char remarks[50][20]; 
-    int s;
+    char remarks[50][20]; // Store remarks for each student
+    int s; // Current student index
 
     void average(int index) {
         float combined=0;
